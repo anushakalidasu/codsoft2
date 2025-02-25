@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fefaf7;
+            text-align: center;
+        }
+        header {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 60px 20px;
+            background: #fefaf7;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .cta {
+            padding: 15px 30px;
+            background: #ff5722;
+            color: #fff;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .cta:hover {
+            background: #e64a19;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+        }
+        .feature {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 250px;
+            border-radius: 10px;
+        }
+        .about {
+            padding: 40px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+        }
+        .product-images {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+        }
+        .product-images img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ALEXI</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Smart Digital Gadget For Luxurious Life</h1>
+        <p>Experience the best in smart  technology with our innovative AI voice Assistant ALEXI.</p>
+        <button class="cta" onclick="buyProduct()">Buy Product</button>
+    </section>
+    
+    <section class="product-images">
+        <img src="img landing page/Screenshot_8-2-2025_115817_pluspng.com-removebg-preview.png" alt="Smart Home Assistant">
+        <img src="img landing page/Screenshot_8-2-2025_12114_www.bing.com-removebg-preview.png" alt="Smart Speaker">
+    
+    </section>
+    
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>High Quality</h3>
+            <p>Built with premium materials and latest technology.</p>
+        </div>
+        <div class="feature">
+            <h3>Awesome Design</h3>
+            <p>Elegant, stylish, and crafted for comfort.</p>
+        </div>
+        <div class="feature">
+            <h3>Latest Technology</h3>
+            <p>Generative AI for More Human-Like Conversations.</p>
+        </div>
+        <div class="feature">
+            <h3>User Friendly</h3>
+            <p>Easy-to-use interface with intuitive controls.</p>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About The Product</h2>
+        <p>• Water-resistant design</p>
+        <p>•Voice-Controlled Assistant</p>
+        <p>• Long-lasting battery life</p>
+        <p>• Smart Home Integration</p>
+        <p>• Music & Entertainment</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@Alexi.com</p>
+        <p>Follow us on <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </section>
+    
+    <script>
+        function buyProduct() {
+            alert("Thank you for your interest! Redirecting to purchase page.");
+        }
+    </script>
+</body>
+</html>
